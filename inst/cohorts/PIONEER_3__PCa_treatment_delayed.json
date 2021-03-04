@@ -1,0 +1,1457 @@
+{
+  "ExpressionLimit": {"Type": "First"},
+  "CollapseSettings": {
+    "CollapseType": "ERA",
+    "EraPad": 0
+  },
+  "CensorWindow": {
+    "StartDate": null,
+    "EndDate": null
+  },
+  "ConceptSets": [
+    {
+      "expression": {"items": [{
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 200962,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "93974005",
+          "VOCABULARY_ID": "SNOMED",
+          "CONCEPT_NAME": "Primary malignant neoplasm of prostate",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Clinical Finding",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      }]},
+      "name": "[PIONEER] PCa",
+      "id": 0
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 45768763,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "707266006",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Androgen deprivation therapy",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 35807500,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "46196",
+            "VOCABULARY_ID": "HemOnc",
+            "CONCEPT_NAME": "Androgen receptor inhibitor",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "Component Class",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4061549,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "169331000",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Combined radiotherapy",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4073126,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "176319004",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Cryotherapy to prostate via perineal probe",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 44791407,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "285041000000103",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "High intensity focused ultrasound of prostate",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4295112,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "76334006",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Immunological therapy",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 40480519,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "441799006",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Intensity modulated radiation therapy",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 44808725,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "841661000000107",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Laparoscopic prostatectomy",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4040610,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "228868000",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Low dose rate brachytherapy",
+            "DOMAIN_ID": "Observation",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Qualifier Value",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 40493303,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "447553000",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Lutetium-177",
+            "DOMAIN_ID": "Observation",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Substance",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4071665,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "176258007",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Open prostatectomy",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4057754,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "168528006",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Palliative course of radiotherapy",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4117979,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "257891001",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Photodynamic therapy",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4215705,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "395155002",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Prostate-specific antigen monitoring",
+            "DOMAIN_ID": "Observation",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4096783,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "26294005",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Radical prostatectomy",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 46271463,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "709588001",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Radiofrequency ablation using fluoroscopic guidance",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4161415,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "399315003",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Radionuclide therapy",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 37312071,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "788732003",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Robotic radiation delivery system",
+            "DOMAIN_ID": "Device",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Physical Object",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4003224,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "120001005",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Testis excision",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 44806386,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "821151000000104",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Transrectal ultrasound guided cryotherapy to prostate",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4318947,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "22241004",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Transurethral cryosurgical removal of prostate",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4141157,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "265589001",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Transurethral cryotherapy of prostate",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 2109822,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "52450",
+            "VOCABULARY_ID": "CPT4",
+            "CONCEPT_NAME": "Transurethral incision of prostate",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "CPT4",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4234536,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "90199006",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Transurethral prostatectomy",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 40239056,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "1100072",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "abiraterone",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1315942,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "72962",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "docetaxel",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 42900250,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "1307298",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "enzalutamide",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1378382,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "56946",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "Paclitaxel",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "[PIONEER] Treatment",
+      "id": 1
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 35807500,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "46196",
+            "VOCABULARY_ID": "HemOnc",
+            "CONCEPT_NAME": "Androgen receptor inhibitor",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "Component Class",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21603834,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "L02BB",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "Anti-androgens",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 4th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21603823,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "L02AE",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "Gonadotropin releasing hormone analogues",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 4th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21603845,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "L02BX",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "Other hormone antagonists and related agents",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 4th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1378382,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "56946",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "Paclitaxel",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1315942,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "72962",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "docetaxel",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 45775965,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "1547545",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "pembrolizumab",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 40224095,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "997261",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "sipuleucel-T",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "[PIONEER] Treatment_Drugs",
+      "id": 2
+    },
+    {
+      "expression": {"items": [{
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 953300,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "A9513",
+          "VOCABULARY_ID": "HCPCS",
+          "CONCEPT_NAME": "Lutetium lu 177, dotatate, therapeutic, 1 millicurie",
+          "DOMAIN_ID": "Device",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "HCPCS",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      }]},
+      "name": "[PIONEER] Treatment_Device",
+      "id": 3
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 45768763,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "707266006",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Androgen deprivation therapy",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 2110046,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "55873",
+            "VOCABULARY_ID": "CPT4",
+            "CONCEPT_NAME": "Cryosurgical ablation of the prostate (includes ultrasonic guidance and monitoring)",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "CPT4",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4073126,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "176319004",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Cryotherapy to prostate via perineal probe",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4141808,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "427118006",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Endoscopic radiofrequency ablation of lesion of prostate",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 2789849,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "DV109CZ",
+            "VOCABULARY_ID": "ICD10PCS",
+            "CONCEPT_NAME": "High Dose Rate (HDR) Brachytherapy of Prostate using Californium 252 (Cf-252)",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "ICD10PCS",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 2789845,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "DV1097Z",
+            "VOCABULARY_ID": "ICD10PCS",
+            "CONCEPT_NAME": "High Dose Rate (HDR) Brachytherapy of Prostate using Cesium 137 (Cs-137)",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "ICD10PCS",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 2789847,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "DV1099Z",
+            "VOCABULARY_ID": "ICD10PCS",
+            "CONCEPT_NAME": "High Dose Rate (HDR) Brachytherapy of Prostate using Iodine 125 (I-125)",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "ICD10PCS",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 2789846,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "DV1098Z",
+            "VOCABULARY_ID": "ICD10PCS",
+            "CONCEPT_NAME": "High Dose Rate (HDR) Brachytherapy of Prostate using Iridium 192 (Ir-192)",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "ICD10PCS",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 2789850,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "DV109YZ",
+            "VOCABULARY_ID": "ICD10PCS",
+            "CONCEPT_NAME": "High Dose Rate (HDR) Brachytherapy of Prostate using Other Isotope",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "ICD10PCS",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 2789848,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "DV109BZ",
+            "VOCABULARY_ID": "ICD10PCS",
+            "CONCEPT_NAME": "High Dose Rate (HDR) Brachytherapy of Prostate using Palladium 103 (Pd-103)",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "ICD10PCS",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4216178,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "394902000",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "High dose brachytherapy",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 40480519,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "441799006",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Intensity modulated radiation therapy",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 2789856,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "DV10BYZ",
+            "VOCABULARY_ID": "ICD10PCS",
+            "CONCEPT_NAME": "Low Dose Rate (LDR) Brachytherapy of Prostate using Other Isotope",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "ICD10PCS",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4057754,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "168528006",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Palliative course of radiotherapy",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4028898,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "108053008",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Prostate destructive procedure",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4235738,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "90470006",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Prostatectomy",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 45763838,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "700357007",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Radium 223 brachytherapy",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4341384,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "236211007",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Salvage cystoprostatectomy",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4341893,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "236209003",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Salvage cystoprostatourethrectomy",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4003224,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "120001005",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Testis excision",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 44806386,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "821151000000104",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Transrectal ultrasound guided cryotherapy to prostate",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4318947,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "22241004",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Transurethral cryosurgical removal of prostate",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4141157,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "265589001",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Transurethral cryotherapy of prostate",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 927097,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "53854",
+            "VOCABULARY_ID": "CPT4",
+            "CONCEPT_NAME": "Transurethral destruction of prostate tissue; by radiofrequency generated water vapor thermotherapy",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "CPT4",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 2109893,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "53852",
+            "VOCABULARY_ID": "CPT4",
+            "CONCEPT_NAME": "Transurethral destruction of prostate tissue; by radiofrequency thermotherapy",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "CPT4",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 937611,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "C9748",
+            "VOCABULARY_ID": "HCPCS",
+            "CONCEPT_NAME": "Transurethral destruction of prostate tissue; by radiofrequency water vapor (steam) thermal therapy",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "HCPCS",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4142107,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "427661008",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Transurethral radiofrequency needle ablation of prostate",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 37111533,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "726544002",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Ultrasonography guided transrectal cryoablation of prostate",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 44791407,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "285041000000103",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "High intensity focused ultrasound of prostate",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "[PIONEER] Treatment_Procedure",
+      "id": 4
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 937694,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "G9894",
+            "VOCABULARY_ID": "HCPCS",
+            "CONCEPT_NAME": "Androgen deprivation therapy prescribed/administered in combination with external beam radiotherapy to the prostate",
+            "DOMAIN_ID": "Observation",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "HCPCS",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 2108725,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "4201F",
+            "VOCABULARY_ID": "CPT4",
+            "CONCEPT_NAME": "External beam radiotherapy with or without nodal irradiation as adjuvant or salvage therapy for prostate cancer patient (PRCA)",
+            "DOMAIN_ID": "Observation",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "CPT4",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4038003,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "228867005",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "High dose rate brachytherapy",
+            "DOMAIN_ID": "Observation",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Qualifier Value",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4040610,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "228868000",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Low dose rate brachytherapy",
+            "DOMAIN_ID": "Observation",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Qualifier Value",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "[PIONEER] Treatment_Observation",
+      "id": 5
+    }
+  ],
+  "cdmVersionRange": ">=5.0.0",
+  "CensoringCriteria": [{"Death": {
+    "CorrelatedCriteria": null,
+    "CodesetId": null,
+    "DeathSourceConcept": null,
+    "DeathTypeExclude": false,
+    "DeathType": null,
+    "OccurrenceStartDate": null,
+    "Gender": null,
+    "Age": null
+  }}],
+  "QualifiedLimit": {"Type": "First"},
+  "InclusionRules": [{
+    "expression": {
+      "CriteriaList": [
+        {
+          "RestrictVisit": false,
+          "StartWindow": {
+            "UseEventEnd": false,
+            "Start": {
+              "Days": 0,
+              "Coeff": -1
+            },
+            "End": {
+              "Days": 180,
+              "Coeff": 1
+            },
+            "UseIndexEnd": false
+          },
+          "IgnoreObservationPeriod": false,
+          "EndWindow": null,
+          "Criteria": {"DrugExposure": {
+            "OccurrenceEndDate": null,
+            "CorrelatedCriteria": null,
+            "DrugSourceConcept": null,
+            "CodesetId": 2,
+            "DrugTypeExclude": false,
+            "Quantity": null,
+            "DrugType": null,
+            "ProviderSpecialty": null,
+            "EffectiveDrugDose": null,
+            "Gender": null,
+            "DaysSupply": null,
+            "DoseUnit": null,
+            "VisitType": null,
+            "Refills": null,
+            "First": null,
+            "OccurrenceStartDate": null,
+            "RouteConcept": null,
+            "StopReason": null,
+            "LotNumber": null,
+            "Age": null
+          }},
+          "Occurrence": {
+            "Type": 0,
+            "IsDistinct": false,
+            "Count": 0
+          }
+        },
+        {
+          "RestrictVisit": false,
+          "StartWindow": {
+            "UseEventEnd": false,
+            "Start": {
+              "Days": 0,
+              "Coeff": -1
+            },
+            "End": {
+              "Days": 180,
+              "Coeff": 1
+            },
+            "UseIndexEnd": false
+          },
+          "IgnoreObservationPeriod": false,
+          "EndWindow": null,
+          "Criteria": {"DeviceExposure": {
+            "OccurrenceEndDate": null,
+            "DeviceTypeExclude": false,
+            "CorrelatedCriteria": null,
+            "CodesetId": 3,
+            "Quantity": null,
+            "UniqueDeviceId": null,
+            "ProviderSpecialty": null,
+            "DeviceSourceConcept": null,
+            "Gender": null,
+            "DeviceType": null,
+            "VisitType": null,
+            "First": null,
+            "OccurrenceStartDate": null,
+            "Age": null
+          }},
+          "Occurrence": {
+            "Type": 0,
+            "IsDistinct": false,
+            "Count": 0
+          }
+        },
+        {
+          "RestrictVisit": false,
+          "StartWindow": {
+            "UseEventEnd": false,
+            "Start": {
+              "Days": 0,
+              "Coeff": -1
+            },
+            "End": {
+              "Days": 180,
+              "Coeff": 1
+            },
+            "UseIndexEnd": false
+          },
+          "IgnoreObservationPeriod": false,
+          "EndWindow": null,
+          "Criteria": {"ProcedureOccurrence": {
+            "ProcedureType": null,
+            "CorrelatedCriteria": null,
+            "CodesetId": 4,
+            "ProcedureSourceConcept": null,
+            "Quantity": null,
+            "ProviderSpecialty": null,
+            "Gender": null,
+            "ProcedureTypeExclude": false,
+            "VisitType": null,
+            "First": null,
+            "OccurrenceStartDate": null,
+            "Modifier": null,
+            "Age": null
+          }},
+          "Occurrence": {
+            "Type": 0,
+            "IsDistinct": false,
+            "Count": 0
+          }
+        },
+        {
+          "RestrictVisit": false,
+          "StartWindow": {
+            "UseEventEnd": false,
+            "Start": {
+              "Days": 0,
+              "Coeff": -1
+            },
+            "End": {
+              "Days": 180,
+              "Coeff": 1
+            },
+            "UseIndexEnd": false
+          },
+          "IgnoreObservationPeriod": false,
+          "EndWindow": null,
+          "Criteria": {"Observation": {
+            "ValueAsConcept": null,
+            "ObservationType": null,
+            "CorrelatedCriteria": null,
+            "ObservationTypeExclude": false,
+            "ValueAsString": null,
+            "CodesetId": 5,
+            "ProviderSpecialty": null,
+            "Gender": null,
+            "Unit": null,
+            "ObservationSourceConcept": null,
+            "VisitType": null,
+            "ValueAsNumber": null,
+            "Qualifier": null,
+            "First": null,
+            "OccurrenceStartDate": null,
+            "Age": null
+          }},
+          "Occurrence": {
+            "Type": 0,
+            "IsDistinct": false,
+            "Count": 0
+          }
+        }
+      ],
+      "Type": "ALL",
+      "DemographicCriteriaList": [],
+      "Groups": [],
+      "Count": null
+    },
+    "name": "No treatment after 6 months",
+    "description": null
+  }],
+  "PrimaryCriteria": {
+    "CriteriaList": [{"ConditionOccurrence": {
+      "OccurrenceEndDate": null,
+      "CorrelatedCriteria": null,
+      "ConditionTypeExclude": false,
+      "CodesetId": 0,
+      "ProviderSpecialty": null,
+      "Gender": null,
+      "VisitType": null,
+      "First": null,
+      "OccurrenceStartDate": null,
+      "ConditionType": null,
+      "ConditionSourceConcept": null,
+      "StopReason": null,
+      "Age": null
+    }}],
+    "PrimaryCriteriaLimit": {"Type": "First"},
+    "ObservationWindow": {
+      "PostDays": 0,
+      "PriorDays": 0
+    }
+  }
+}
